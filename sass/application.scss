@@ -1,3 +1,12 @@
-body{
-  background-color: #333;
+@import "reset";
+@import "variables";
+@import "base";
+
+
+canvas{
+  // border: 1px solid grey;
+  margin: 0 auto;
+  display: block;
+  width: 750px;
+  background: $dark-blue;
 }

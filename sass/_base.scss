@@ -1,0 +1,31 @@
+body{
+  background: $dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: 100vh;
+}
+button:focus{
+  outline: none;
+}
+.container{
+  position: relative;
+}
+.myBtn{
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-appearance: none;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: transparent;
+  &:hover{
+    background-color: #fff;
+    color: $dark-blue;
+  }
+}

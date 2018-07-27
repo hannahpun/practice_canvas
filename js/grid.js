@@ -4,7 +4,7 @@
 ctx.fillStyle = "white";
 ctx.beginPath();
 // grid
-for(var i = 0; i<15; i++){
+for(var i = 0; i<30; i++){
     let pos = i*50;
     ctx.moveTo(pos, 0);
     ctx.lineTo(pos, h)

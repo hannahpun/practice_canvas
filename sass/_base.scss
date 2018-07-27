@@ -1,9 +1,7 @@
 body{
   background: $dark-blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 15px;
+  width: 100%;
   height: 100vh;
 }
 button:focus{
@@ -11,6 +9,11 @@ button:focus{
 }
 .container{
   position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .myBtn{
   font-size: 15px;
